@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.compose {
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.search {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 100px auto 150px;
+}
+.settings{
+    background-color:gray;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 100px auto 120px 30px;
+    height: 100vh;
+}
+
+.left-menu {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 10px;
+}
+.icon{
+    display: flex;
+    width:20px;
+     height:20px;
+}
+
+.mail-items {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 30px);
+}
+
+.mail-item {
+    border: 1px solid;
+}
+
+.right-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    background-color: green;
+    width: 100%;
+}
+
+.X{
+    text-align: right;
+     margin-right: 5px;
+}
+.shortcut{
+    background-color: rgb(185, 38, 62);
+}
